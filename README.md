@@ -2,7 +2,7 @@
 
 A self-contained study app based on three supplied Fall 2026 MTT lecture decks.
 
-- 200 original practice questions: 50 translation/dental technology, 75 biomarkers, 75 gene therapy/CRISPR.
+- 300 original practice questions: 50 translation/dental technology, 125 biomarkers, 125 gene therapy/CRISPR.
 - 25 study-note sections with PDF page references.
 - Practice and exam modes, shuffled questions and answer options, balanced mixed sets.
 - Answer explanations, missed-question review, and progress saved in the current browser.
@@ -23,3 +23,7 @@ Checked unique question stems, answer-option integrity, source-page bounds, samp
 ## Storage
 
 Progress stays in localStorage in the current browser. It does not sync between devices. Resetting progress asks for confirmation. Clearing browser data removes progress.
+
+## Expanded question bank and exam mode
+
+300 questions: 50 for Lecture 1, 125 for Lecture 2, and 125 for Lecture 3. The new-questions filter isolates the 100 additions. The 50-question exam always samples 10 / 20 / 20 by lecture, shuffles questions and choices, and reveals explanations after submission.
